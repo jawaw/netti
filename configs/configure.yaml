@@ -1,0 +1,12 @@
+version: 0.0.1
+
+listen_port: 8888
+
+http:
+  timeout: 60   # Second
+
+configure:
+  url: 127.0.0.1:3306
+  user: root
+  pwd: root
+  db: lpldb
